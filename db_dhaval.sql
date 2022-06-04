@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.0.2
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Generation Time: Jul 08, 2021 at 06:52 AM
--- Server version: 10.4.14-MariaDB
--- PHP Version: 7.4.9
+-- Host: 127.0.0.1:3307
+-- Generation Time: Jun 04, 2022 at 02:56 PM
+-- Server version: 10.4.20-MariaDB
+-- PHP Version: 8.0.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -39,7 +39,7 @@ CREATE TABLE `contactus` (
 --
 
 INSERT INTO `contactus` (`sr`, `name`, `email`, `message`) VALUES
-(13, 'Dhaval Ahir', 'dhavalm.official404@g', 'What is the Data Science course fee?'),
+(13, 'Dhaval Ahir', 'dhavalm.official404@', 'What is the Data Science course fee?'),
 (14, 'Dhaval', 'adef32795@gmail.com', 'This is a demo paregraph!'),
 (15, 'Dhaval', 'adef327095@gmail.com', 'This is a para!'),
 (16, '', '', ''),
@@ -79,7 +79,8 @@ INSERT INTO `transactions` (`sr`, `sender`, `receiver`, `amount`, `status`) VALU
 (11, '', '', 0, 'failed'),
 (12, '7311780855', '4001286186', 9950000, 'succeed'),
 (13, '4001286186', '7311780855', 500, 'succeed'),
-(14, '4001286186', '5353112532', 800, 'succeed');
+(14, '4001286186', '5353112532', 800, 'succeed'),
+(15, '5353112532', '7311780855', 100000, 'succeed');
 
 -- --------------------------------------------------------
 
@@ -100,16 +101,16 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`sr`, `name`, `email`, `accno`, `blc`) VALUES
-(3, 'Dhaval Ahir', 'dhaval@gmail.com', '5353112532', 5000000),
-(4, 'Chirag Varu', 'varuchirag990@gmail.com', '7311780855', 75000),
+(3, 'Dhaval Ahir', 'dhaval@gmail.com', '5353112532', 4900000),
+(4, 'Chirag Varu', 'varuchirag990@gmail.', '7311780855', 175000),
 (5, 'Manisha Gojiya', 'manisha@gmail.com', '4001286186', 30000),
 (6, 'Jayesh Chavda', 'jayesh@gmail.com', '1097481093', 16000),
 (7, 'Hitesh Barad', 'hitesh@gmail.com', '5859722581', 18200),
 (8, 'Manish Varu', 'manish05@gmail.com', '4920438199', 20000),
-(9, 'Nikhil Patel', 'nikhilpatel07@gmail.com', '9304807119', 16100),
-(10, 'Banti Sakariya', 'bantisakariya10@gmail.com', '1384625500', 10900),
-(11, 'Payal Patel', 'payalpatel007@gmail.com', '3917416800', 13900),
-(12, 'Ramesh Parmar', 'rameshparmar14@gmail.com', '5002694111', 19000);
+(9, 'Nikhil Dabhi', 'nikhildabhi999@gmail', '9304807119', 16100),
+(10, 'Banti Sakariya', 'bantisakariya10@gmai', '1384625500', 10900),
+(11, 'Payal Patel', 'payalpatel007@gmail.', '3917416800', 13900),
+(12, 'Ramesh Parmar', 'rameshparmar14@gmail', '5002694111', 19000);
 
 --
 -- Indexes for dumped tables
@@ -147,7 +148,7 @@ ALTER TABLE `contactus`
 -- AUTO_INCREMENT for table `transactions`
 --
 ALTER TABLE `transactions`
-  MODIFY `sr` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `sr` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `users`
