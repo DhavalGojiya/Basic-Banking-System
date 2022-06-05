@@ -102,15 +102,15 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`sr`, `name`, `email`, `accno`, `blc`) VALUES
 (3, 'Dhaval Ahir', 'dhaval@gmail.com', '5353112532', 4900000),
-(4, 'Chirag Varu', 'varuchirag990@gmail.com', '7311780855', 175000),
+(4, 'Chirag Varu', 'chirag@gmail.com', '7311780855', 175000),
 (5, 'Manisha Gojiya', 'manisha@gmail.com', '4001286186', 30000),
 (6, 'Jayesh Chavda', 'jayesh@gmail.com', '1097481093', 16000),
 (7, 'Hitesh Barad', 'hitesh@gmail.com', '5859722581', 18200),
-(8, 'Manish Varu', 'manish05@gmail.com', '4920438199', 20000),
-(9, 'Nikhil Dabhi', 'nikhildabhi999@gmail.com', '9304807119', 16100),
-(10, 'Banti Sakariya', 'bantisakariya10@gmail.com', '1384625500', 10900),
-(11, 'Payal Patel', 'payalpatel007@gmail.com', '3917416800', 13900),
-(12, 'Ramesh Parmar', 'rameshparmar14@gmail.com', '5002694111', 19000);
+(8, 'Manish Varu', 'manish@gmail.com', '4920438199', 20000),
+(9, 'Nikhil Dabhi', 'nikhil@gmail.com', '9304807119', 16100),
+(10, 'Banti Sakariya', 'banti@gmail.com', '1384625500', 10900),
+(11, 'Payal Patel', 'payal@gmail.com', '3917416800', 13900),
+(12, 'Ramesh Parmar', 'ramesh@gmail.com', '5002694111', 19000);
 
 --
 -- Indexes for dumped tables
