@@ -78,7 +78,7 @@
             <br><br>
             <p style="color:white;">The site Developed by</p>
             <h1 style="color:white; text-shadow:2px 2px 2px gray;">Dhaval Ahir</h1>
-            <p style="color:gray;"><b>Intern at Sparks Foundation <br> Harivandana College, Gujarat.</b></p>
+            <p style="color:gray;"><b>Intern at Sparks Foundation <br> Saurashtra University, Gujarat.</b></p>
     </center>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
